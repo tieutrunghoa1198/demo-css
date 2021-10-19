@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <style>
+        .blue { 
+            color: blue!important;; 
+        }
+
+        .red { 
+            color: red!important;; 
+        }
+    </style>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1 class="red blue">Rule Order</h1>
+    <table>
+        <thead>
+           
+        </thead>
+    </table>
+    <h1>Hello 2</h1>
+    <div class="spotlight">ádasd</div>
+
+    <canvas id="th-canvas" width="200" height="100" style="border:1px solid #000000;">
+
+    </canvas>
+    <span class="spotlight-2">ádasd
+        <div>tét </div>
+    </span>
+    <div class="spotlight" style="width: 50%;">
+        <span class="spotlight-2">test</span>
+    </div>
+    <div class="spotlight" style="width: 50%;">
+        <span class="spotlight-2">test</span>
+    </div>
+    <br>
+
+    <a href="">Thẻ anchor</a>
+    <strong>Thẻ strong</strong>
+    <em>Thẻ emphasize</em>
+    <span>Thẻ span</span>
+    
+    <div class="container">
+        <p class="hello-class">Hello World 1</p>
+        <div class="paragraph-container">
+          <p id="hola-id" class="hola-class">Hola World 2</p>
+          <p class="hello-class">Hello World 3</p>
+          <p class="hello-class again-class">Hello Again World 4</p>
+          <p class="active">Hello World 3</p>
+        </div>
+        <p class="outside-class">I'm outside</p>
+    </div>
+
+    <div for="chocolate">Chocolate</div>
+    <div for="peanut">Peanut</div>
+    <div for="butter">Butter</div>
+    <div>Jelly</div>
+
+    <script>
+        var c = document.getElementById("th-canvas");
+        var ctx = c.getContext("2d");
+        ctx.moveTo(0, 0);
+        ctx.lineTo(200, 100);
+        ctx.stroke();
+    </script>
+
+</body>
+</html>

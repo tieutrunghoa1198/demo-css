@@ -1,0 +1,37 @@
+.spotlight {
+    /* display: inline-block; */
+    background-color: antiquewhite;
+}
+
+.spotlight-2 {
+    background-color: blueviolet;
+}
+
+.container > .hello-class {
+    color: red;
+}
+
+.container .hello-class {
+    color: red;
+}
+
+.outside-class, .again-class, .hola-class {
+    color: purple;
+}
+
+p.active {
+    color: gold;
+}
+
+#hola-id + .hello-class {
+    color: blue;
+}
+
+#hola-id ~ .hello-class {
+    color: gre;
+}
+
+
+div[for="chocolate"]{
+    color: blue;
+}
